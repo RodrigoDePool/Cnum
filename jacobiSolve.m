@@ -35,7 +35,7 @@ function [l] = isConver(A)
             end
         end
         if(num < sum)
-            a = 0;
+            l = 0;
             return;
         end
    end
