@@ -1,3 +1,9 @@
+% Devuelve un vector con los puntos evaluados de un interpolador de
+% lagrange
+
+%Parametros
+% x son los puntos en los que se evalua el polinomio
+% (v , y ) son los puntos en los que se genera el polinomio
 function p = interpoladorLagrange(x,v,y)
     [a1,n1] = size(v);
     [a2,n2] = size(y);
